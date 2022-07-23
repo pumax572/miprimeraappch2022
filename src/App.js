@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';//Integremos el módulo de CSS a WebPack
-import Navbar from './components/navbar/Navbar';
+import Navbar from './components/Navbar/Navbar'; //Los componentes los nombramos utilizando PascalCase
 
 function App() {
   
@@ -10,14 +9,7 @@ function App() {
   //COMPONENTE VISUAL
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Bienvenidos a mi primera APP con React!!!
-        </p>
-      </header>
       <Navbar/> {/* Llamamos al Navbar */}
-
     </div>
     
   );
