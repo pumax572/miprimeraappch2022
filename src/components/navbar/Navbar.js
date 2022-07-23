@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+//import React, {useState, useEffect} from 'react'
 //import Button from '../Button/Button' //No lo uso por ahora
 import './Navbar.css' //Importando el archivo de estilos.
 import CartWidget from '../CartWidget/CartWidget'

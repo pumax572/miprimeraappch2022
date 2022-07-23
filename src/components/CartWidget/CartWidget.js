@@ -5,7 +5,7 @@ import './CartWidget.css'
 const CartWidget = () => {
     return (
         <div>
-            <img src="images/cart.svg" alt=""CartWidget/> {/*Hago de cuenta que lo estoy direccionando desde el navegador, por eso no van los ../Retornamos una imagen y un número estático*/}
+            <img src="images/cart.svg" alt=""CartWidget/> {/*Hago de cuenta que lo estoy direccionando desde el navegador, por eso no van los "../" Retornamos una imagen y un número estático*/}
             99
         </div>
     )
