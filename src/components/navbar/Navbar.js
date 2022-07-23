@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react'
 //import Button from '../Button/Button' //No lo uso por ahora
 import './Navbar.css' //Importando el archivo de estilos.
+import CartWidget from '../CartWidget/CartWidget'
 
 //Probando si funcionan los botones:
 /*const text = 'Hice Clicks';
@@ -13,7 +14,8 @@ const Navbar = () => { //Creamos una funcion que retorne la parte visual del Nav
     return (
 
         <nav>
-            <h1>Mi Primer ECommerce</h1>
+            <h1 className="title">Mi Primer ECommerce</h1>
+            <CartWidget/>
             <ul className="list">
                 <li className="items">ANTENAS</li>
                 <li className="items">ROUTERS</li>
