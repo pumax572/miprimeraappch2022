@@ -1,4 +1,4 @@
-//Retornamos la tarjeta de producto completa.
+//Retornamos la tarjeta de producto completa, falta agregar estilo!
 const Item = ({ product }) => {
     return (
         <li>
