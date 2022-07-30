@@ -21,22 +21,8 @@ const Navbar = () => { //Creamos una funcion que retorne la parte visual del Nav
                 <li className="items">ROUTERS</li>
                 <li className="items">SWITCHES</li>
             </ul>
-    </nav>
+        </nav>
     )
 }
 
 export default Navbar //Definimos que es un bloque que se va a utilizar afuera, es decir lo vamos a exprtar
-
-
-
-
-
-
-
-
-
-
-
-
-
-
