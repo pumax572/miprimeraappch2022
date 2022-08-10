@@ -40,3 +40,13 @@ export const getProducts = () => {
         
     })
 }
+
+//Simulo el llamado a mi producto a mi API utilizando id
+export const getProductById = (id) => {
+    return new Promise((resolve) => {
+        setTimeout(()=> {
+            resolve(products.find(prod => prod.id === id)) //Quiero que busque el producto que sea igual al ID que le estoy pasando
+        }, 2000) //Simulamos el retardo de cuanto tarda la peticion a la API
+        
+    })
+}
