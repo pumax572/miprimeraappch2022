@@ -4,10 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root')); //Toda la App de REACT insertale en el root del html
-root.render(
-    <App /> //Esto es JSX
-);
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(<App />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

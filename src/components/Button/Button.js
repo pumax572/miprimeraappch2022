@@ -1,11 +1,26 @@
-import './Button.css'
-//POR EL MOMENTO NO VAMOS A UTILIZAR ESTE COMPONENTE!!!
-const Button = ({ handleClick, color, children}) => {
+import React, { useEffect } from 'react'
+
+const Button = () => {
+
+    const handleClick = () => {
+        console.log('hola')
+    }
+
+    useEffect(() => {
+        const button = document.getElementById('button')
+        
+        button.addEventListener('click', handleClick)
+
+        return () => {
+            button.removeEventListener('click', handleClick)
+        }
+    }, [])
+
+ 
+
     return (
-        <button onClick={handleClick} style={{color: color}}>
-            {children}
-        </button>
+        <button id='button'>Button</button>
     )
 }
 
-export default Button;
+export default Button
