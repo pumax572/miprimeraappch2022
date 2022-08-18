@@ -28,7 +28,7 @@ const products = [
     }
 ]
 
-export const getProductsDeAlfredo = () => {
+export const getProducts = () => {
     return new Promise((resolve) => {
         setTimeout(() => {
             resolve(products)
